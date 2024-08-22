@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from config import ROOT_PATH
+from app.config import ROOT_PATH
 
 app = FastAPI(root_path=ROOT_PATH)
 
